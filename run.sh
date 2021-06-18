@@ -18,8 +18,7 @@ XSOCK=/tmp/.X11-unix
 XAUTH=$HOME/.Xauthority
 VOLUMES="       --volume=$XSOCK:$XSOCK
                 --volume=$XAUTH:/home/$(id -un)/.Xauthority
-                --volume=$KITTI_BASE_PATH/training:/data/kitti/training:ro 
-                --volume=$KITTI_BASE_PATH/testing:/data/kitti/testing:ro"
+                --volume=$KITTI_BASE_PATH:/root/OpenPCDet/data/kitti"
 
 xhost +local:docker
 
