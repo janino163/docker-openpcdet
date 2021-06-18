@@ -12,12 +12,13 @@ You can build the image with the following:
 ```
 ./build.sh
 ```
-The run script provided takes care of all the necessary Xforwarding required for Mayavi visualisation. Edit it to mount your local datasets and code base
+The run script provided takes care of all the necessary Xforwarding required for Mayavi visualisation. Edit it to mount your local dataset.
 ```
 ./run.sh
 ```
 
-After you run the image, you can test a model with:
+After you run the image, download a model from the original [repo]
+(https://github.com/open-mmlab/OpenPCDet/tree/0642cf06d0fd84f50cc4c6c01ea28edbc72ea810) and change the paths below to point to it.
 ```
 cd /root/OpenPCDet/tools && python3 demo.py --cfg_file cfgs/kitti_models/pv_rcnn.yaml     --ckpt /root/OpenPCDet/tools/pv_rcnn_8369.pth     --data_path /root/OpenPCDet/data/kitti/training/velodyne
 ```
