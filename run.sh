@@ -6,7 +6,7 @@
 
 
 KITTI_BASE_PATH="/media/darren/Samsung_T5/datasets/kitti/3d_object_detection"
-CODE_PATH="/home/darren/Dropbox/code/perception/baraja_roi/OpenPCDet"
+# CODE_PATH="/home/darren/Dropbox/code/perception/baraja_roi/OpenPCDet"
 
 ENVS="  --env=NVIDIA_VISIBLE_DEVICES=all
         --env=NVIDIA_DRIVER_CAPABILITIES=all
