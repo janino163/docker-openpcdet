@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t darrenjkt/openpcdet:latest .
+docker build -t openpcdet:latest .
