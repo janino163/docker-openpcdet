@@ -21,6 +21,8 @@ For the first time that you run this, you'll have to install the repo with the f
 python3 setup.py develop
 
 ```
+Save the docker container with `docker commit ${CONTAINER ID} openpcdet:latest` 
+
 
 Thereafter, download a model from the original [repo](https://github.com/open-mmlab/OpenPCDet/tree/master) such as `pv_rcnn_8369.pth` below and change the paths below to point to the pth file and data folders.
 ```
