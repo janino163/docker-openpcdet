@@ -27,4 +27,4 @@ docker  run -it --rm \
         $ENVS \
         --privileged \
         --net=host \
-	darrenjkt/openpcdet:latest bash
+	openpcdet:latest bash
