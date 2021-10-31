@@ -2,7 +2,7 @@
 
 This is a docker build with OpenPCDet installed. Clone this repo and its submodules:
 ```
-git clone https://github.com/darrenjkt/docker-openpcdet.git --recursive
+git clone https://github.com/janino163/docker-openpcdet.git --recursive
 ```
 
 
